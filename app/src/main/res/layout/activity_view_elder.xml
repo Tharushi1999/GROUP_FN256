@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewElder">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Customer ID"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/cname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Customer Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/addy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/desig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Customer Designation"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/interested"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Interested areas"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/viewall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="View All Customers" />
+
+
+</LinearLayout>

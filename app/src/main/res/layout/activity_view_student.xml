@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewStudent">
+
+    <LinearLayout
+        android:layout_width="418dp"
+        android:layout_height="654dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    <EditText
+        android:id="@+id/sid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Student ID"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/searchs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/sname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Student Name"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/cn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sinterested"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Interested areas"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/updates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/deletes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/viewalls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="View All " />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
